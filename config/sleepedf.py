@@ -1,6 +1,6 @@
 params = {
     # Train
-    "n_epochs": 100,
+    "n_epochs": 10,
     "learning_rate": 1e-4,
     "adam_beta_1": 0.9,
     "adam_beta_2": 0.999,
@@ -10,7 +10,7 @@ params = {
     "checkpoint_span": 50,
 
     # Early-stopping
-    "no_improve_epochs": 10,
+    "no_improve_epochs": 5,
 
     # Model
     "n_rnn_layers": 1,
