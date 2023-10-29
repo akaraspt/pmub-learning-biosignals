@@ -6,7 +6,7 @@ It is simplified version of the TinySleepNet, and its full implementation can be
 
 
 ## Environment
-* CUDA 12.1
+* CUDA 12.1 (optional)
 * mne 0.23.4
 * matplotlib 3.3.4
 * numpy 1.19.5
