@@ -47,6 +47,11 @@ If you have problems when installing Pytorch, please refer to this [link](https:
 1. `python trainer.py --db sleepedf --gpu 0 --from_fold 0 --to_fold 19`
 1. `python predict.py --config_file config/sleepedf.py --model_dir out_sleepedf/train --output_dir out_sleepedf/predict --log_file out_sleepedf/predict.log`
 
+## Coding Exercise
+Modify the [`simple_model`](https://github.com/akaraspt/pmub-learning-biosignals/blob/1d506c57637898e371e7abec018041b57b35d26e/model.py#L12) function in model.py to be the same as the *Representation Learning* part of the TinySleepNet model.
+
+![Alt text](img/tinysleepnet.png "a title")
+
 
 ## Citation
 
